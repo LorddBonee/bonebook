@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BoneBook.css">
+    <script src="https://kit.fontawesome.com/dbee96050a.js" crossorigin="anonymous"></script>
+    <title>Profile Page - BoneBook</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/Frame 2.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profilepic.jpg">
+            </div>
+
+        </div>
+
+        <!-- Settings menu -->
+        <div class="settings-menu">
+
+
+            <div id="dark-btn">
+                <span>
+
+                </span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/member7.jpg">
+                    <div>
+                        <p>Lord Bone</p>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give feedback</p>
+                    <a href="#">Help us improve the new design</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="settings-link">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-link">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-link">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-link">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#"> Logout <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+
+
+            </div>
+            
+            </div>
+    </nav>
+
+
+   <!-- Profile page -->
+
+   <main class="profile-container">
+    <img src="images/Coverimg.jfif" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profilepic.jpg" class="pd-image" width="250px">
+            <div>
+                <h3>Emmanuel Oluwayemi</h3>
+                <p>50 Friends - 15 mutual</p>
+                <img src="images/member1.jpg">
+                <img src="images/member2.jpg">
+                <img src="images/member3.jpg">
+                <img src="images/member4.jpg">
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="pd-right">
+
+            <button type="button"><img src="images/add-friends.png">Friend</button>
+            <button type="button"><img src="images/message.png">Message</button>
+            <br>
+            <a href="#"><img src="images/more.png"></a>
+        </div>
+    </div>
+
+
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png"></p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png">Manager at Vivid Imagination ltd</li>
+                    <li><img src="images/profile-study.png">Studied at Olabisi Onabanjo University</li>
+                    <li><img src="images/profile-study.png">Went to Omotayo College</li>
+                    <li><img src="images/profile-home.png">Lives in Lagos, Nigeria</li>
+                    <li><img src="images/profile-location.png">From Nigeria</li>
+
+                </ul>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                <a href="#">All Photos</a>
+                </div>
+                <div class="photo-box">
+                    <div><img src="images/member7.jpg"></div>
+                    <div><img src="images/Profilepage1.jpg"></div>
+                    <div><img src="images/Profilepage2.jpg"></div>
+                    <div><img src="images/profilepage3.jpg"></div>
+                    <div><img src="images/photo1.jpg"></div>
+                    <div><img src="images/photo2.jpg
+                        "></div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>friends</h3>
+                <a href="#">All Friends</a>
+                </div>
+                <p>120 (10 mutual)</p>
+                <div class="friend-box">
+                    <div><img src="images/member1.jpg"><p>Omolade</p></div>
+                    <div><img src="images/member2.jpg"><p>Peace</p></div>
+                    <div><img src="images/member3.jpg"><p>Blessing</p></div>
+                    <div><img src="images/member4.jpg"><p>Rhoda</p></div>
+                    <div><img src="images/member5.jpg"><p>Oreoluwa</p></div>
+                    <div><img src="images/member6.jpg"><p>Vhikthor</p></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/member7.jpg">
+                    <div>
+                        <p>Lord Bone</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea placeholder="What's Flocculating Lord Bone" rows="3"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                    </div>
+
+                </div>
+
+                
+
+
+            
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member7.jpg">
+                        <div>
+                            <p>Lord Bone</p>
+                            <span>November 21 2023, 3:55pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text"><span>Web Developement</span> is quite fun, you just have to be patient, consistent, and show up everyday. Energy and persistence conquers all. <a href="#">#Consistency</a><a href="#">#LordBone</a></p>
+                <img src="images/post-img01.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">1200</div>
+                        <div><img src="images/comments.png">50</div>
+                        <div><img src="images/share.png">520</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/member7.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member7.jpg">
+                        <div>
+                            <p>Lord Bone</p>
+                            <span>November 23 2023, 10:09am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">“I did some wrongs, but I’m always right. Said, I know how to shoot, and I know how to fight.”
+                    
+                <img src="images/Profilepage1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">1200</div>
+                        <div><img src="images/comments.png">50</div>
+                        <div><img src="images/share.png">520</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/member7.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+            </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member7.jpg">
+                        <div>
+                            <p>Lord Bone</p>
+                            <span>November 26 2023, 3:00pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Family Wedding.
+                    <a href="#">#Wedding</a><a href="#">#Family</a></p>
+                <img src="images/Profilepage2.jpg" class="post-img">
+    
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">1700</div>
+                        <div><img src="images/comments.png">90</div>
+                        <div><img src="images/share.png">960</div>
+                    </div>
+    
+                    <div class="post-profile-icon">
+                        <img src="images/member7.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+               
+            </div>    
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/member7.jpg">
+                    <div>
+                        <p>Lord Bone</p>
+                        <span>November 25 2023, 5:30pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Wedding guest.
+                <a href="#">#Wedding</a></p>
+            <img src="images/profilepage3.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">5500</div>
+                    <div><img src="images/comments.png">1900</div>
+                    <div><img src="images/share.png">10000</div>
+                </div>
+
+                <div class="post-profile-icon">
+                    <img src="images/member7.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+
+           
+        </div>
+
+        <div class="post-container">
+            <p class="liked">You liked</p>
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/wuraProfile.jpg">
+                    <div>
+                        <p>Adebayo Wuraola</p>
+                        <span>November 20 2023, 10:21pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">“You must have some vision for your life. Even if you don't know the plan, you have to have a direction in which you choose to go.”
+                <a href="#">#Msc</a><a href="#">#Graduation</a></p>
+            <img src="images/wura.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icon">
+                    <div><img src="images/like-blue.png">15000</div>
+                    <div><img src="images/comments.png">4700</div>
+                    <div><img src="images/share.png">19060</div>
+                </div>
+
+                <div class="post-profile-icon">
+                    <img src="images/wuraProfile.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </div>
+
+   </main>
+
+
+
+
+
+    <footer class="footer">
+        <p>
+            Copyright 2023 - Lord Bone 
+        </p>
+
+    </footer>
+
+    
+    <script src="BoneBook.js"></script>
+</body>
+</html>
